@@ -1,0 +1,197 @@
+ html {
+  scroll-behavior: smooth;
+  
+}
+body {
+  padding-top: 56px;
+  }
+header
+{
+background-image:url(../images/header-background.jpg);
+ /* Full height */
+ width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  background-image:no repeat;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #1CAC80;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+/*progress bar*/
+.progress
+{
+	height: 20px;
+	margin-bottom:10px;
+	margin-top: 10px;
+	width:auto;
+}
+.progress.progress-bar {
+    -webkit-transition: none !important;
+    transition: none !important;
+}
+/*Slogan*/
+
+
+@media (max-width: 768px) {
+    .label {
+        font-size: 35px;
+    }
+}
+.label2 a
+{
+text-decoration:none;
+}
+@media (max-width: 768px) {
+    .label2 {
+     font-size: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .label3 {
+        font-size: 15px;
+    }
+}
+/*model image*/
+.model-image
+{
+	max-height:300px;
+}
+/*loader image*/
+.load-image
+{
+	max-height:400px;
+}
+
+/*Carousel-indicatorse*/
+#myCarousel-indicators > li {
+  border-radius: 50%;
+  height: 10px;
+    width: 10px;
+}
+
+/*form*/
+.main-block {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: #1c87c9;
+      }
+form {
+padding: 25px;
+margin: 25px;
+box-shadow: 0 2px 5px #f5f5f5; 
+background: #f5f5f5; 
+}
+input, textarea {
+width: calc(100% - 18px);
+padding: 8px;
+margin-bottom: 20px;
+border: 1px solid #1c87c9;
+outline: none;
+}
+input::placeholder {
+color: #666;
+}
+.button1 {
+width: 100%;
+padding: 10px;
+border: none;
+background: #1c87c9; 
+font-size: 16px;
+font-weight: 400;
+color: #fff;
+}
+.button1:hover {
+background: #2371a0;
+}    
+@media (min-width: 568px) {
+.main-block {
+flex-direction: row;
+}
+.left-part, form {
+width: 50%;
+}
+
+
+/*div background*/
+.back{
+background-color:#f0f0f0;
+}
+/*hr line*/
+.hr-line
+{
+ border-top: 1px dashed green; 
+}
+
+/*social icons*/
+
+.social
+{
+text-decoration:none;
+}
+.fa
+{
+	max-width: 100%;
+	height:auto;
+}
+
+.fa:hover {
+  background: #3b5998;
+}
+.skype
+{
+	max-width: 100%;
+	height:auto;
+}
+.skype:hover {
+  background: #00aff0;
+}
+.in
+{
+	max-width: 100%;
+	height:auto;
+}
+.in:hover {
+  background: #0e76a8;
+}
+.google
+{
+	max-width: 100%;
+	height:auto;
+}
+.google:hover {
+  background: #db4a39;
+}
+.twitter
+{
+	max-width: 100%;
+	height:auto;
+}
+.twitter:hover {
+  background: #00acee;
+}
+
+
+
+
+
